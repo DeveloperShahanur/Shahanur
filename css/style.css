@@ -1,0 +1,865 @@
+/*Common Css Start*/
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.clr{
+    clear: both;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+/*Common Css End*/
+
+
+
+/*Menu and logo Part Start*/
+.menu_logo_part{
+    height: 100px;
+    width: 100%;
+    background: rgb(0, 255, 132);
+}
+
+.menu_logo{
+    display: flex;
+}
+
+.logo{
+    height: 100px;
+    width: 170px;
+}
+
+.menu{
+    height: 100px;
+    width: 1000px;
+}
+
+.logo_text{
+    text-align: left;
+}
+
+.logo_text h2{
+    font-size: 50px;
+    padding-top: 22px;
+}
+
+.menu{
+    text-align: right;
+}
+
+.menu ul li{
+    display: inline-block;
+}
+
+.menu ul li a{
+    padding: 8px 20px;
+    line-height: 100px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin-left: 10px ;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.menu ul li a:hover{
+    color: white;
+    background: rgb(247, 0, 78);
+    border: 2px solid white;
+}
+/*Menu and logo Part End*/
+
+
+/*Banner Part Start*/
+.banner_part{
+    height: 500px;
+    width: 100%;
+    background: url(../images/banner2);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.overly{
+    height: 500px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.banner_text{
+    text-align: center;
+}
+
+.banner_text h1{
+    color: white;
+    font-size: 80px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 120px;
+}
+
+.banner_text h2{
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 70px;
+}
+
+.banner_btn a{
+    color: black;
+    padding: 10px 30px;
+    background: rgb(247, 95, 0);
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 509px;
+   cursor: pointer;
+   transition: .4s;
+   border-radius: 20px;
+}
+
+.banner_btn a:hover{
+    color: white;
+    background: green;
+}
+/*Banner Part End*/
+
+
+/*Skills Part Start*/
+.skills_item_all{
+    height: 500px;
+}
+
+.top_text{
+    text-align: center;
+}
+
+.top_text h3{
+    color: rgb(255, 98, 0);
+    padding-top: 30px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.top_text h3::after{
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    background: rgb(0, 255, 132);
+    content: "";
+    transform: translateY(-50%);
+    margin-top: 12px;
+    margin-left: 5px;
+}
+
+.top_text h3::before{
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    background: rgb(0, 255, 132);
+    content: "";
+    transform: translateY(-50%);
+    margin-top: 12px;
+    margin-left: -105px;
+}
+
+.skills_item{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-left: 8px;
+}
+
+.skills_item_one{
+    height: 300px;
+    width: 280px;
+}
+
+.skills_one_photo img{
+    height: 300px;
+    width: 280px;
+}
+
+.skills_item_two{
+    height: 300px;
+    width: 280px;
+}
+
+.skills_two_photo img{
+    height: 300px;
+    width: 220px;
+    margin-left: 20px;
+}
+
+.skills_item_three{
+    height: 300px;
+    width: 280px;
+}
+
+.slills_three_photo img{
+    height: 240px;
+    width: 250px;
+    margin-top: 55px;
+    margin-left: 5px;
+}
+
+.skills_item_four{
+    height: 300px;
+    width: 280px;
+}
+
+.skills_four_photo img{
+    height: 300px;
+    width: 500px;
+    margin-left: -131px;
+}
+/*Skills Part End*/
+
+
+/*Works Part Start*/
+.works_text{
+    text-align: center;
+}
+
+.works_text h3{
+    color: rgb(255, 98, 0);
+    padding-top: 30px;
+    text-transform: uppercase;
+    position: relative;
+    padding-left: 7px;
+}
+
+.works_text h3::after{
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    background: rgb(0, 255, 132);
+    content: "";
+    transform: translateY(-50%);
+    margin-top: 12px;
+    margin-left: 5px;
+}
+
+.works_text h3::before{
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    background: rgb(0, 255, 132);
+    content: "";
+    transform: translateY(-50%);
+    margin-top: 12px;
+    margin-left: -105px;
+}
+
+.works_photo{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.works_photo_one{
+    height: 500px;
+    background: url(../images/work1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.works_photo_two{
+    height: 500px;
+    background: url(../images/work2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.works_photo_three{
+    height: 500px;
+    background: url(../images/work3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.works_photo_four{
+    height: 500px;
+    background: url(../images/work4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.works_photo_five{
+    height: 500px;
+    background: url(../images/work5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+/*Works Part End*/
+
+
+/*LifeStyle Part Start*/
+.life_part{
+    height: 500px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.life_text{
+    text-align: center;
+}
+
+.life_text h3{
+    color: rgb(255, 98, 0);
+    padding-top: 5px;
+    text-transform: uppercase;
+    position: relative;
+    padding-left: -15px;
+    padding-bottom: 35px;
+}
+
+.life_text h3::after{
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    background: rgb(0, 255, 132);
+    content: "";
+    transform: translateY(-50%);
+    margin-top: 12px;
+    margin-left: 5px;
+}
+
+.life_text h3::before{
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    background: rgb(0, 255, 132);
+    content: "";
+    transform: translateY(-50%);
+    margin-top: 12px;
+    margin-left: -105px;
+}
+
+.life_part_one{
+    height: 500px;
+    width: 360px;
+    background: rgb(206, 255, 223);
+    border-radius: 20px;
+    transition: .4s;
+    border: 2px solid rgb(0, 255, 132);
+}
+
+.life_one_photo img{
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    margin-top: 20px;
+    margin-left: 28px;
+}
+
+.life_one_text{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.life_one_text h1{
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+.life_one_text p{
+    padding-top: 10px;
+}
+
+.life_one_btn{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.life_one_btn a{
+    color: black;
+    padding: 10px 20px;
+    background: rgb(247, 95, 0);
+    font-size: 20px;
+    border-radius: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.life_one_btn a:hover{
+    color: white;
+    background: green;
+}
+
+.life_part_two{
+    height: 500px;
+    width: 360px;
+    border-radius: 20px;
+    background: rgb(206, 255, 223);
+    transition: .4s;
+    border: 2px solid rgb(0, 255, 132);
+}
+
+.life_two_photo img{
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    margin-top: 20px;
+    margin-left: 28px;
+}
+.life_part_three{
+    height: 500px;
+    width: 360px;
+    border-radius: 20px;
+    background: rgb(206, 255, 223);
+    transition: .4s;
+    border: 2px solid rgb(0, 255, 132);
+}
+
+.life_three_photo img{
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    margin-top: 20px;
+    margin-left: 28px;
+}
+/*LifeStyle Part End*/
+
+
+/*Birthday Part Start*/
+.birthday_part{
+    height: 300px;
+    background: url(../images/Valentina.jpg);
+    margin-top: 30px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.birthday_top_text{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.birthday_top_text h3{
+    color: rgb(255, 98, 0);
+    padding-top: 5px;
+    text-transform: uppercase;
+    position: relative;
+    padding-left: -15px;
+}
+
+.birthday_top_text h3::after{
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    background: rgb(0, 255, 132);
+    content: "";
+    transform: translateY(-50%);
+    margin-top: 12px;
+    margin-left: 5px;
+}
+
+.birthday_top_text h3::before{
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    background: rgb(0, 255, 132);
+    content: "";
+    transform: translateY(-50%);
+    margin-top: 12px;
+    margin-left: -105px;
+}
+
+.birthday_text{
+    text-align: center;
+}
+
+.birthday_text h1{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    padding-top: 20px;
+    color: rgb(106, 106, 106);
+}
+
+.birthday_box_all{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.box_one{
+    height: 150px;
+    width: 250px;
+    
+    border-radius: 20px;
+}
+
+.box_two{
+    height: 150px;
+    width: 250px;
+    
+    border-radius: 20px;
+}
+
+.box_three{
+    height: 150px;
+    width: 250px;
+    
+    border-radius: 20px;
+}
+
+.box_four{
+    height: 150px;
+    width: 250px;
+    
+    border-radius: 20px;
+}
+
+.box_one_text{
+    text-align: center;
+}
+
+.box_one_text h3{
+    color: green;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.box_one_text h1{
+    font-size: 90px;
+    color: rgb(247, 0, 78);
+}
+
+.box_two_text{
+    text-align: center;
+}
+
+.box_two_text h3{
+    color: green;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.box_two_text h1{
+    font-size: 90px;
+    color: rgb(247, 0, 78);
+}
+
+.box_three_text{
+    text-align: center;
+}
+
+.box_three_text h3{
+    color: green;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.box_three_text h1{
+    font-size: 90px;
+    color: rgb(247, 0, 78);
+}
+
+.box_four_text{
+    text-align: center;
+}
+
+.box_four_text h3{
+    color: green;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.box_four_text h1{
+    font-size: 90px;
+    color: rgb(247, 0, 78);
+}
+/*Birthday Part End*/
+
+
+/*Footer Part Start*/
+.footer_text{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.footer_text h3{
+    color: rgb(255, 98, 0);
+    padding-top: 5px;
+    text-transform: uppercase;
+    position: relative;
+    padding-left: -15px;
+}
+
+.footer_text h3::after{
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    background: rgb(0, 255, 132);
+    content: "";
+    transform: translateY(-50%);
+    margin-top: 12px;
+    margin-left: 5px;
+}
+
+.footer_text h3::before{
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    background: rgb(0, 255, 132);
+    content: "";
+    transform: translateY(-50%);
+    margin-top: 12px;
+    margin-left: -105px;
+}
+
+.footer_part{
+    height: 250px;
+    background: rgb(239, 239, 239);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.footer_one{
+    height: 250px;
+    width: 380px;
+}
+
+.footer_two{
+    height: 250px;
+    width: 380px;
+}
+
+.footer_three{
+    height: 250px;
+    width: 380px;
+}
+
+.footer_text_one{
+    text-align: left;
+}
+
+.footer_text_one h4{
+    padding-top: 10px;
+    font-size: 20px;
+    padding-left: 10px;
+    position: relative;
+    color: rgb(47, 47, 47);
+}
+
+.footer_text_one h4::after{
+    position: absolute;
+    height: 2px;
+    width: 270px;
+    background: black;
+    content: "";
+    margin-top: 13px;
+    margin-left: 3px;
+}
+
+.footer_text_three{
+    text-align: right;
+}
+
+.footer_text_three h4{
+    padding-top: 10px;
+    font-size: 20px;
+    padding-right: 10px;
+    position: relative;
+    color: rgb(47, 47, 47);
+}
+
+.footer_text_three h4::after{
+    position: absolute;
+    height: 2px;
+    width: 280px;
+    background: black;
+    content: "";
+    margin-top: 13px;
+    margin-left: -360px;
+}
+
+.footer_text_two{
+    text-align: center;
+}
+
+.footer_text_two h4{
+    padding-top: 10px;
+    font-size: 20px;
+    position: relative;
+    color: rgb(47, 47, 47);
+}
+
+.footer_text_two h4::after{
+    position: absolute;
+    height: 2px;
+    width: 120px;
+    background: black;
+    content: "";
+    margin-top: 13px;
+    margin-left: 3px;
+}
+
+.footer_text_two h4::before{
+    position: absolute;
+    height: 2px;
+    width: 120px;
+    background: black;
+    content: "";
+    margin-top: 13px;
+    margin-left: -122px;
+}
+
+.footer_text_one h5{
+    font-size: 10px;
+    padding-top: 15px;
+    padding-left: 10px;
+    line-height: 20px;
+    color: rgb(47, 47, 47);
+}
+
+.footer_input{
+    padding-top: 15px;
+    text-align: center;
+    color: rgb(47, 47, 47);
+}
+
+.footer_input input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    
+}
+
+.footer_send_btn{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.footer_send_btn a{
+    padding: 5px 10px;
+    background: rgb(247, 95, 0);
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.footer_send_btn a:hover{
+    color: white;
+    background: green;
+}
+
+.whatsapp{
+    text-align: right;
+    padding-top: 20px;
+    font-size: 20px;
+    display: flex;
+    padding-left: 10px;
+}
+
+.text_one{
+    padding-left: 10px;
+    font-size: 17px;
+    color: rgb(47, 47, 47);
+}
+
+.facebook{
+    text-align: right;
+    padding-top: 20px;
+    font-size: 17px;
+    display: flex;
+    padding-left: 10px;
+}
+
+.text_two{
+    padding-left: 10px;
+    color: rgb(47, 47, 47);
+}
+
+.twitter{
+    text-align: right;
+    padding-top: 20px;
+    font-size: 17px;
+    display: flex;
+    padding-left: 10px;
+}
+
+.text_three{
+    padding-left: 10px;
+    color: rgb(47, 47, 47);
+}
+
+.email{
+    text-align: right;
+    padding-top: 20px;
+    font-size: 17px;
+    display: flex;
+    padding-left: 10px;
+}
+
+.text_four{
+    padding-left: 10px;
+    color: rgb(47, 47, 47);
+}
+
+.youtube{
+    text-align: right;
+    padding-top: 20px;
+    font-size: 17px;
+    display: flex;
+    padding-left: 10px;
+}
+
+.text_five{
+    padding-left: 10px;
+    color: rgb(47, 47, 47);
+}
+/*Footer Part End*/
+
+
+/*Last Part Start*/
+.last_part{
+    height: 30px;
+    width: 100%;
+    background: rgb(168, 168, 168);
+}
+
+.last_text{
+    text-align: center;
+}
+
+.last_text h3{
+    padding-top: 7px;
+    font-size: 15px;
+    color: rgb(47, 47, 47);
+}
+/*Last Part End*/
